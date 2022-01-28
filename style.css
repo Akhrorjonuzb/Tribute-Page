@@ -1,0 +1,103 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200;700&family=Karla&family=Kumbh+Sans:wght@100;400&family=Lexend+Deca&family=Open+Sans:wght@300;400&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200;700&family=Karla&family=Kumbh+Sans:wght@100;400&family=Lexend+Deca&family=Open+Sans:wght@300;400&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+
+#main{
+    background-color: #EEEEEE;
+    margin-top: 40px;
+}
+
+#img-div{
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 20px;
+    border: 10px solid #fff;
+    position: relative;
+}
+
+#image{
+    /* width: 100%; */
+    /* height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; */
+
+    max-width: none;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1{
+    color: #333333;
+font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#tribute-info{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.list-items{
+    align-items: center;
+    position: relative;
+    width: 500px;
+    margin: auto;
+    height: auto;
+    text-align: left;
+    padding: 5px;
+}
+li{
+    font-size: 1.1rem;
+    margin: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+#img-caption{
+    padding-bottom: 20px;
+}
+
+.italic{
+    padding-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+.footer{
+    padding-bottom: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+#tribute-link{
+    color: #47A2CC;
+}
+
+/* Responsive Layout */
+
+@media screen and (max-width: 1150px) {
+    #image{
+        width: 100%;
+        height: auto;
+    }
+    .list-items{
+        width: auto;
+    }
+
+
+
+
+}
